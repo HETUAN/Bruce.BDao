@@ -1,10 +1,12 @@
+E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\BaseRepository.cs
+E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\appsettings.json
 E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\Bruce.BDao.deps.json
 E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\Bruce.BDao.runtimeconfig.json
 E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\Bruce.BDao.runtimeconfig.dev.json
 E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\Bruce.BDao.dll
-E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\obj\Debug\netcoreapp1.1\Bruce.BDao.AssemblyInfo.cs
 E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\Bruce.BDao.pdb
+E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\obj\Debug\netcoreapp1.1\Bruce.BDao.csproj.CoreCompileInputs.cache
+E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\obj\Debug\netcoreapp1.1\Bruce.BDao.AssemblyInfoInputs.cache
+E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\obj\Debug\netcoreapp1.1\Bruce.BDao.AssemblyInfo.cs
 E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\obj\Debug\netcoreapp1.1\Bruce.BDao.dll
 E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\obj\Debug\netcoreapp1.1\Bruce.BDao.pdb
-E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\appsettings.json
-E:\TUAN\Vs2017\Bruce.Console\Bruce.BDao\bin\Debug\netcoreapp1.1\BaseRepository.cs

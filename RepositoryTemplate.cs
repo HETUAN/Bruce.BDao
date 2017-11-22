@@ -85,7 +85,7 @@ namespace Bruce.BDao
                 sb.AppendLine("           /// <summary>  ");
                 sb.AppendLine("           /// 插入操作");
                 sb.AppendLine("           /// <summary> ");
-                sb.AppendLine("           public int Insert(" + entity.EntityName + " entity)");
+                sb.AppendLine("           public int Insert(" + entity.EntityName + "Entity entity)");
                 sb.AppendLine("           {");
                 sb.AppendLine("               string sql = \"" + insertStr + "\";");
                 sb.AppendLine("               return base.ExecuteNonQuery(OpenConnection(), sql, entity);");
@@ -105,7 +105,7 @@ namespace Bruce.BDao
                     sb.AppendLine("           /// <summary>  ");
                     sb.AppendLine("           /// 更新操作");
                     sb.AppendLine("           /// <summary> ");
-                    sb.AppendLine("           public int Update(" + entity.EntityName + " entity)");
+                    sb.AppendLine("           public int Update(" + entity.EntityName + "Entity entity)");
                     sb.AppendLine("           {");
                     sb.AppendLine("               string sql = \"" + updateSql + "\";");
                     sb.AppendLine("               return base.ExecuteNonQuery(OpenConnection(), sql, entity);");
@@ -114,20 +114,20 @@ namespace Bruce.BDao
                     sb.AppendLine("           /// <summary>  ");
                     sb.AppendLine("           /// 获取实体");
                     sb.AppendLine("           /// <summary> ");
-                    sb.AppendLine("           public " + entity.EntityName + " GetModel(" + pkType + " pk)");
+                    sb.AppendLine("           public " + entity.EntityName + "Entity GetModel(" + pkType + " pk)");
                     sb.AppendLine("           {");
                     sb.AppendLine("               string sql = \"" + string.Format("SELECT {0} FROM {1} WHERE {2}=@pk", getCol, entity.EntityName, pk) + "\";");
-                    sb.AppendLine("               return base.QuerySingle<" + entity.EntityName + ">(OpenConnection(), sql, new { pk = pk }); ");
+                    sb.AppendLine("               return base.QuerySingle<" + entity.EntityName + "Entity>(OpenConnection(), sql, new { pk = pk }); ");
                     sb.AppendLine("           }");
                 }
 
                 sb.AppendLine("           /// <summary>  ");
                 sb.AppendLine("           /// 获取实体列表");
                 sb.AppendLine("           /// <summary> ");
-                sb.AppendLine("           public List<" + entity.EntityName + "> GetList()");
+                sb.AppendLine("           public List<" + entity.EntityName + "Entity> GetList()");
                 sb.AppendLine("           {");
                 sb.AppendLine("               string sql = \"" + string.Format("SELECT TOP 100 {0} FROM {1}", getCol, entity.EntityName) + "\";");
-                sb.AppendLine("               return base.Query<" + entity.EntityName + ">(OpenConnection(), sql, new {}); ");
+                sb.AppendLine("               return base.Query<" + entity.EntityName + "Entity>(OpenConnection(), sql, new {}); ");
                 sb.AppendLine("           }");
                 sb.AppendLine("       }");
                 sb.AppendLine("}");

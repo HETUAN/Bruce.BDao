@@ -29,7 +29,7 @@ namespace Bruce.BDao
             foreach (Entity entity in entities)
             {
                 StringBuilder sb = new StringBuilder();
-                string className = entity.EntityName + ".cs";
+                string className = entity.EntityName + "Entity.cs";
 
                 sb.AppendLine(@"/*============================");
                 sb.AppendLine(@"* 该文件由模板生成，请不要修改");
@@ -40,7 +40,7 @@ namespace Bruce.BDao
                 sb.AppendLine(@"       /// <summary>");
                 sb.AppendLine(@"       /// " + entity.EntityComment);
                 sb.AppendLine(@"       /// </summary>");
-                sb.AppendLine(@"       public class " + entity.EntityName);
+                sb.AppendLine(@"       public class " + entity.EntityName+ "Entity");
                 sb.AppendLine(@"       {");
 
                 for (int i = 0; i < entity.Fields.Count; i++)

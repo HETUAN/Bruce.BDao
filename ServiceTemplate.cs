@@ -64,7 +64,7 @@ namespace Bruce.BDao
                 sb.AppendLine("           /// <summary>  ");
                 sb.AppendLine("           /// 插入操作");
                 sb.AppendLine("           /// <summary> ");
-                sb.AppendLine("           public int Insert(" + entity.EntityName + " entity)");
+                sb.AppendLine("           public int Insert(" + entity.EntityName + "Entity entity)");
                 sb.AppendLine("           {");
                 sb.AppendLine("               return _repository.Insert(entity);");
                 sb.AppendLine("           }");
@@ -82,7 +82,7 @@ namespace Bruce.BDao
                     sb.AppendLine("           /// <summary>  ");
                     sb.AppendLine("           /// 更新操作");
                     sb.AppendLine("           /// <summary> ");
-                    sb.AppendLine("           public int Update(" + entity.EntityName + " entity)");
+                    sb.AppendLine("           public int Update(" + entity.EntityName + "Entity entity)");
                     sb.AppendLine("           {");
                     sb.AppendLine("               return _repository.Update(entity);");
                     sb.AppendLine("           }");
@@ -90,7 +90,7 @@ namespace Bruce.BDao
                     sb.AppendLine("           /// <summary>  ");
                     sb.AppendLine("           /// 获取实体");
                     sb.AppendLine("           /// <summary> ");
-                    sb.AppendLine("           public " + entity.EntityName + " GetModel(" + pkType + " pk)");
+                    sb.AppendLine("           public " + entity.EntityName + "Entity GetModel(" + pkType + " pk)");
                     sb.AppendLine("           {");
                     sb.AppendLine("               return _repository.GetModel(pk);");
                     sb.AppendLine("           }");
@@ -99,7 +99,7 @@ namespace Bruce.BDao
                 sb.AppendLine("           /// <summary>  ");
                 sb.AppendLine("           /// 获取实体列表");
                 sb.AppendLine("           /// <summary> ");
-                sb.AppendLine("           public List<" + entity.EntityName + "> GetList()");
+                sb.AppendLine("           public List<" + entity.EntityName + "Entity> GetList()");
                 sb.AppendLine("           {");
                 sb.AppendLine("               return _repository.GetList();");
                 sb.AppendLine("           }");
